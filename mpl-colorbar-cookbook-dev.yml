@@ -3,6 +3,12 @@ channels:
   - conda-forge
 dependencies:
   - jupyter-book
+  - cartopy
+  - matplotlib
+  - numpy
+  - xarray
+  - cmaps
+  - geocat-datafiles
   - pip
   - pip:
       - sphinx-pythia-theme

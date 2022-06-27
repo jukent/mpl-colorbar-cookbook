@@ -7,13 +7,13 @@ jobs:
     uses: ./.github/workflows/build-book.yaml
     with:
       environment_name: cookbook-dev
-      environment_file: environment.yml
+      environment_file: mpl-colorbar-cookbook-dev.yml
       path_to_notebooks: notebooks/
       use_cached_environment: 'true'  # This is default, not strickly needed. Set to 'false' to always build a new environment
   link-check:
     uses: ./.github/workflows/link-checker.yaml
     with:
       environment_name: cookbook-dev
-      environment_file: environment.yml
+      environment_file: mpl-colorbar-cookbook-dev.yml
       path_to_notebooks: notebooks/
       use_cached_environment: 'true'
