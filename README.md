@@ -1,16 +1,15 @@
-<img src="thumbnail.png" alt="thumbnail" width="300"/>
+<img src="thumbnail.png" alt="Two world maps with temperature contours and one colorbar." width="300"/>
 
 # Maplotlib Colorbars Cookbook
 
 [![nightly-build](https://github.com/ProjectPythiaCookbooks/mpl-colorbar-cookbook/actions/workflows/nightly-build.yaml/badge.svg)](https://github.com/ProjectPythiaCookbooks/mpl-colorbar-cookbook/actions/workflows/nightly-build.yaml)
 [![Binder](https://binder-staging.2i2c.cloud/badge_logo.svg)](https://binder-staging.2i2c.cloud/v2/gh/ProjectPythiaCookbooks/mpl-colorbar-cookbook/main?labpath=notebooks)
 
-This Project Pythia Cookbook covers ... (replace `...` with the main subject of your cookbook ... e.g., *working with radar data in Python*)
+This Project Pythia Cookbook covers how to assign the same colorbar to multiple plots in Matplotlib. It also covers the recommended best practices when using color in visualizations.
 
 ## Motivation
 
-(Add a few sentences stating why this cookbook will be useful. What skills will you, "the chef", gain once you have reached the end of the cookbook?)
-
+This cookbook walks the user through assigning a colorbar to multiple plots, how to manipulate some select features of a colorbar, and how to choose colormaps appropriately.
 ## Authors
 
 [Heather Craker](@hCraker) and the [Project Pythia](https://projectpythia.org/) Community
@@ -22,13 +21,16 @@ This Project Pythia Cookbook covers ... (replace `...` with the main subject of 
 </a>
 
 ## Structure
-(State one or more sections that will comprise the notebook. E.g., *This cookbook is broken up into two main sections - "Foundations" and "Example Workflows."* Then, describe each section below.)
+This cookbook is broken up into three main sections - "Getting Set Up", "Making the Plot", and "Colormap Best Practices"
 
-### Section 1 ( Replace with the title of this section, e.g. "Foundations" )
-(Add content for this section, e.g., "The foundational content includes ... ")
+### Getting Set Up
+The setup for this cookbook includes importing the required packages and loading in the data. A brief description of the data and how to use xarray to read the dataset is included.
 
-### Section 2 ( Replace with the title of this section, e.g. "Example workflows" )
-(Add content for this section, e.g., "Example workflows include ... ")
+### Making the Plot
+This is the primary section of the cookbook. It shows how to display two contour plots on the same figure and use the same colorbar for both plots.
+
+### Colormap Best Practices
+This section explains how to make accessible figures by carefully choosing the colormaps used. It shows how our figure appears in grayscale and to someone with deuteranomaly color deficiency (color blindness).
 
 ## Running the Notebooks
 You can either run the notebook using [Binder](https://mybinder.org/) or on your local machine.
