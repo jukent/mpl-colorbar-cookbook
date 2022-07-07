@@ -12,7 +12,7 @@ This Project Pythia Cookbook covers how to assign the same colorbar to multiple 
 This cookbook walks the user through assigning a colorbar to multiple plots, how to manipulate some select features of a colorbar, and how to choose colormaps appropriately.
 ## Authors
 
-[Heather Craker](@hCraker) and the [Project Pythia](https://projectpythia.org/) Community
+[Heather Craker](https://github.com/hCraker) and the [Project Pythia](https://projectpythia.org/) Community
 
 ### Contributors
 
@@ -53,23 +53,21 @@ a live Jupyter notebook are described in [Getting Started with
 Jupyter](https://foundations.projectpythia.org/foundations/getting-started-jupyter.html).
 
 ### Running on Your Own Machine
-If you are interested in running this material locally on your computer, you will need to follow this workflow:
+If you are interested in running this material locally on your computer, you will need to follow this workflow:  
 
-(Replace "cookbook-example" with the title of your cookbooks)   
-
-1. Clone the `https://github.com/ProjectPythiaCookbooks/cookbook-example` repository:
+1. Clone the `https://github.com/ProjectPythiaCookbooks/mpl-colorbar-cookbook` repository:
 
    ```bash
-    git clone https://github.com/ProjectPythiaCookbooks/cookbook-example.git
+    git clone https://github.com/ProjectPythiaCookbooks/mpl-colorbar-cookbook.git
     ```  
-1. Move into the `cookbook-example` directory
+1. Move into the `mpl-colorbar-cookbook` directory
     ```bash
-    cd cookbook-example
+    cd mpl-colorbar-cookbook
     ```  
 1. Create and activate your conda environment from the `environment.yml` file
     ```bash
-    conda env create -f environment.yml
-    conda activate cookbook-example
+    conda env create -f mpl-colorbar-cookbook-dev.yml
+    conda activate mpl-colorbar-cookbook
     ```  
 1.  Move into the `notebooks` directory and start up Jupyterlab
     ```bash
